@@ -767,5 +767,8 @@ I (..\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
 F (..\startup\startup_stm32f10x_hd.s)(0x4D783CDE)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_Target_1-IE:\install\keil\pack\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IE:\install\keil\pack\Keil\STM32F1xx_DFP\2.3.0\Device\Include--pd "__UVISION_VERSION SETA 527" --pd "_RTE_ SETA 1" --pd "STM32F10X_HD SETA 1"--list .\listings\startup_stm32f10x_hd.lst --xref -o .\objects\startup_stm32f10x_hd.o --depend .\objects\startup_stm32f10x_hd.d)
 F (..\myfreertos\source\list.c)(0x60B8CEE6)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\STM32F10x_StdPeriph_Driver\inc -I ..\user -I ..\user\api -I ..\myfreertos\include-I.\RTE\_Target_1-IE:\install\keil\pack\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IE:\install\keil\pack\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F10X_HD-o .\objects\list_1.o --omf_browse .\objects\list_1.crf --depend .\objects\list_1.d)
 I (..\myfreertos\include\list.h)(0x60B8CEE6)
+F (..\myfreertos\source\task.c)(0x60B8D403)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\STM32F10x_StdPeriph_Driver\inc -I ..\user -I ..\user\api -I ..\myfreertos\include-I.\RTE\_Target_1-IE:\install\keil\pack\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IE:\install\keil\pack\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F10X_HD-o .\objects\task.o --omf_browse .\objects\task.crf --depend .\objects\task.d)
+I (..\myfreertos\include\task.h)(0x60B8D403)
 F (..\myfreertos\include\list.h)(0x60B8CEE6)()
+F (..\myfreertos\include\task.h)(0x60B8D403)()
 F (..\readme.txt)(0x60B1062A)()

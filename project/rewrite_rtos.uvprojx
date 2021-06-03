@@ -659,6 +659,11 @@
               <FileType>1</FileType>
               <FilePath>..\myfreertos\source\list.c</FilePath>
             </File>
+            <File>
+              <FileName>task.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\myfreertos\source\task.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -668,6 +673,11 @@
               <FileName>list.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\myfreertos\include\list.h</FilePath>
+            </File>
+            <File>
+              <FileName>task.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\myfreertos\include\task.h</FilePath>
             </File>
           </Files>
         </Group>
