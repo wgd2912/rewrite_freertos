@@ -338,7 +338,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>..\STM32F10x_StdPeriph_Driver\inc;..\user;..\user\api</IncludePath>
+              <IncludePath>..\STM32F10x_StdPeriph_Driver\inc;..\user;..\user\api;..\myfreertos\include</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -653,6 +653,23 @@
         </Group>
         <Group>
           <GroupName>my_freertos/source</GroupName>
+          <Files>
+            <File>
+              <FileName>list.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\myfreertos\source\list.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>my_freertos/include</GroupName>
+          <Files>
+            <File>
+              <FileName>list.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\myfreertos\include\list.h</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>doc</GroupName>
